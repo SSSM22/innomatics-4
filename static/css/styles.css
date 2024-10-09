@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.webp') no-repeat center center fixed;
+    background-size: cover;
+    color:white;
+    height: 100vh;
+}
+
+header {
+    background-color: black ;
+    color:#ffcc00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #ffcc00; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+
+#home h2 {
+    font-size: 50px; 
+    color: #ffcc00; 
+    text-align: center;
+    font-family: 'Cursive', sans-serif; 
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px;
+}
+#home p {
+    color:black; 
+    font-size: 20px; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+
+.shop-button {
+    display: inline-block;
+    padding: 15px 30px; 
+    background-color: #ffcc00; 
+    color: #333333; 
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px; 
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    margin-top: 70px;
+}
+
+.shop-button:hover {
+    background-color: #ff9900; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); 
+    color: #fff; 
+}
+
+
+#shop {
+    padding: 50px;
+    background-color: rgba(224, 247, 250, 0.8);
+    color: black;
+    text-align: center;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.product {
+    display: inline-block;
+    width: 30%; 
+    margin: 10px; 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+section {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#about{
+    background-color: rgba(0, 0, 0, 0.8)    ;
+}
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
